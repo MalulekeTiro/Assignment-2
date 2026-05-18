@@ -1,7 +1,1 @@
-public String checkReceiverCell(){
-    if (receiver != null && receiver.matches("^27[0-9]{10}$")){
-        return "Cell number validated.";  // ← was "cell number is valid"
-    }
-    return "Cell number is incorrect. Please enter the correct number";
-}
-
+<img width="707" height="157" alt="image" src="https://github.com/user-attachments/assets/607469ba-f7d1-4016-8c06-9c0a4424ac3f" />
