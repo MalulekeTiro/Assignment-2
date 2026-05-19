@@ -1,3 +1,6 @@
+<img width="1918" height="931" alt="image" src="https://github.com/user-attachments/assets/fb976497-b543-4fcf-a72b-aa8a0d5bf3e7" />
+
+
 public String checkMessageLength() {
     if (messageText.length() <= 250) {
         return "Message ready to send.";
