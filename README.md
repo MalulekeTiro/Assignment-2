@@ -1,8 +1,3 @@
-<img width="1919" height="936" alt="image" src="https://github.com/user-attachments/assets/ac41a9cf-f4a5-43ee-937a-3fa3faf26af9" />
-
-<img width="1912" height="936" alt="image" src="https://github.com/user-attachments/assets/13d06a76-2f9a-4bec-8014-be0d59b1044b" />
-
-
 public String checkMessageLength() {
     if (messageText.length() <= 250) {
         return "Message ready to send.";
@@ -24,4 +19,9 @@ public String checkReceiverCell() {
         return "Cell phone number successfully captured.";
     }
     return "Cell phone number is incorrectly formatted or does not contain an international code. Please correct the number and try again.";
+}
+
+if (!cellCheck.equals("Cell phone number successfully captured.")) {
+    System.out.println(cellCheck);
+    break;
 }
